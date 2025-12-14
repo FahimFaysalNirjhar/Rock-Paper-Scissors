@@ -32,10 +32,44 @@
     >
       Rock Paper Scissors
     </h1>
-    <main class="bg-[#001d3d]">
+    <main class="bg-[#001d3d] min-h-screen">
       <h1 class="font-poppins text-xl text-white font-medium text-center py-6">
         CHOOSE AN OPTION
       </h1>
+      <!-- image container -->
+      <div class="flex justify-around items-center mt-20 h-52">
+        <!-- computer img -->
+        <div id="computer-img">
+          <img src="gameImages/stoneComputer.png" alt="" />
+        </div>
+        <!-- player-img -->
+        <div id="player-img">
+          <img src="gameImages/stonePlayer.png" alt="" />
+        </div>
+      </div>
+      <!-- score -->
+      <div class="flex justify-center items-center my-8">
+        <p class="text-white font-poppins text-lg font-semibold">
+          COMPUTER <span class="ml-20" id="computer-score">0</span> /
+          <span class="mr-20" id="player-score">0</span> PLAYER
+        </p>
+      </div>
+      <!-- button -->
+      <div class="flex justify-around items-center">
+        <button
+          class="btn bg-[#001d3d] text-white outline-none shadow-none px-6"
+        >
+          STONE
+        </button>
+        <button
+          class="btn bg-[#001d3d] text-white outline-none shadow-none px-6"
+        >
+          PAPER
+        </button>
+        <button class="btn bg-[#001d3d] text-white outline-none shadow-none">
+          SCISSORS
+        </button>
+      </div>
     </main>
   </body>
 </html>
