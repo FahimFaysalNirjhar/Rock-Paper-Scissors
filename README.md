@@ -36,5 +36,45 @@ RockPaperScissors/
 ├── gameImages/        # Images for player and computer choices
 └── README.md          # Project documentation
 
+## ⚙️ Technologies Used
 
+- **HTML5** – Structure  
+- **Tailwind CSS** – Styling and layout  
+- **DaisyUI** – UI components  
+- **JavaScript (ES6)** – Game logic and interactivity  
+- **Google Fonts (Poppins)** – Typography  
 
+---
+
+## 🧠 Game Logic Overview
+
+- Player clicks a button (`stone`, `paper`, or `scissors`).
+- Computer randomly selects one of the three options.
+- Game compares both choices and determines the winner.
+- Scores are updated dynamically.
+- Images and animations reflect the current round.
+
+---
+
+## 🚀 Future Improvements
+
+- Add a reset button
+- Add sound effects
+- Add best-of-5 or match mode
+- Add mobile gesture controls
+- Store high scores
+
+---
+
+## 📄 License
+
+This project is open-source and free to use for personal or educational purposes.
+
+---
+
+## 👨‍💻 Author
+
+**Fahim Faysal**  
+Front-End Developer
+- GitHub: https://github.com/FahimFaysalNirjhar
+- Email: fahimfaysal1995@gmail.com
