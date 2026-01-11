@@ -27,3 +27,12 @@ A simple and interactive **Rock Paper Scissors** web game built using **HTML, Ta
 
 ## 🗂 Project Structure
 
+RockPaperScissors/
+│
+├── index.html # Main HTML file
+├── style.css # Custom CSS (animations, extra styles)
+├── scripts/
+│ └── app.js # Game logic
+├── gameImages/ # Images for player and computer choices
+└── README.md # Project documentation
+
